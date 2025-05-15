@@ -1,0 +1,1 @@
+A simple and powerful bulk email sending platform built to help businesses and organizations efficiently connect with their customers. This tool allows you to send personalized emails to a large audience, manage mailing lists, and track delivery—all from an easy-to-use interface.

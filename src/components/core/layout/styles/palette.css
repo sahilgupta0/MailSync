@@ -1,0 +1,59 @@
+:root{
+    --bg-color:#30336b;
+    --mode-color:white;
+}
+body,.themeMode{
+    background-color: var(--mode-color) !important;
+}
+.App .color-switcher{
+    width: 10rem;
+    background-color: #fff;
+    padding: 1rem;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translate(100%,-50%);
+    transition: all .5s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+.App .color-switcher--open{
+    transform: translate(0,-50%);
+}
+
+.App .color-switcher .heading{
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+.App .color-switcher .color-listing{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem ;
+
+}
+.App .color-switcher .color-item{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: var(--bg-color);
+    cursor: pointer;
+}
+
+.App .color-switcher .color-open-button {
+    width: 3rem;
+    height: 3rem;
+    background-color: #fff;
+    border: none;
+    border-bottom-left-radius:30px;
+    border-top-left-radius:30px;
+    position: absolute;
+    left:-30.1%;
+    top: 31%;
+    transform: (-100%,-50%);
+    display: grid;
+    place-items: center;
+    box-shadow: -4px 1px 10px rgba(15, 15, 15, 0.7);
+    cursor: pointer;
+}
+
+

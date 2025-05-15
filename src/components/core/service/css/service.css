@@ -1,0 +1,60 @@
+.core .faq .faq-list a.collapsed {
+  color: black;
+  transition: 0.3s;
+}
+.core .faq .faq-list .icon-help {
+  color: var(--bg-color);
+}
+
+.core .faq .faq-list a.collapsed:hover {
+  color: #0315dc;
+}
+
+.core .section-title h2 {
+  color: var(--bg-color);
+}
+.core .section-title h2::after {
+  background: var(--bg-color);
+}
+
+.core .contact .info {
+  border-top: 3px solid var(--bg-color);
+  border-bottom: 3px solid var(--bg-color);
+}
+
+.core .contact .info i {
+  color: var(--bg-color);
+}
+
+.core .contact .info .email:hover i,
+.core .contact .info .address:hover i,
+.core .contact .info .phone:hover i {
+  background: var(--bg-color);
+  color: #fff;
+}
+
+.core .contact .php-email-form {
+  border-top: 3px solid var(--bg-color);
+  border-bottom: 3px solid var(--bg-color);
+}
+
+.core .contact .php-email-form input:focus,
+.core .contact .php-email-form textarea:focus {
+  border-color: var(--bg-color);
+}
+
+.core .contact .php-email-form input {
+  height: 44px;
+}
+
+.core .contact .php-email-form textarea {
+  padding: 10px 12px;
+}
+
+.core .contact .php-email-form button[type="submit"] {
+  background: var(--bg-color);
+}
+
+.core .contact .php-email-form button[type="submit"]:hover {
+  background: #0944cd;
+}
